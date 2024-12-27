@@ -1,0 +1,184 @@
+/* Upload Section Styling */
+.upload-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: linear-gradient(to right, #f7f7f7, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 50px auto;
+  border: 1px solid #ddd; /* Border around the section */
+  border-bottom-width: 3px; /* Thicker bottom border */
+  height: 450px; /* Increased height for the full box */
+}
+
+.upload-section .video-container {
+  width: 80%; /* Increase width of video container to 80% */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px; /* Space between video and content */
+}
+
+.upload-section video {
+  width: 100%; /* Make video take full width of the container */
+  height: 600px; /* Set fixed height for the video */
+  border-radius: 15px;
+  max-width: 800px; /* Increase max width for video */
+}
+
+.upload-container {
+  width: 15%; /* Reduce width for text and upload area */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px; /* Set fixed height for the upload box */
+}
+
+.description h1 {
+  font-size: 37px; /* Larger font for the title */
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333; /* Darker color for the title */
+  text-align: center; /* Center the title horizontally */
+  margin-top: 0; /* Ensure it's aligned at the top */
+}
+
+
+.description p {
+  font-size: 18px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+  color: #666; /* Lighter color for the description text */
+}
+
+.highlight {
+  color: #ffb800;
+  font-weight: bold;
+}
+
+.upload-container {
+  border: 2px dashed #ccc;
+  padding: 20px; /* Reduced padding for the upload area */
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Light background for the upload area */
+  width: 100%; /* Make the upload container take full width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px; /* Reduced button padding */
+  font-size: 16px; /* Smaller font size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Space between the input and button */
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.samples img {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.samples img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Modal styles */
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 15px; /* Reduced padding */
+  border-radius: 10px; /* Smaller border radius */
+  text-align: center;
+  max-width: 400px; /* Smaller max width for modal */
+  width: 100%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Slightly lighter shadow */
+}
+
+.modal-content h3 {
+  font-size: 22px; /* Reduced font size for heading */
+  margin-bottom: 15px; /* Reduced space below the title */
+  color: #333;
+}
+
+.modal-content img {
+  max-width: 100%;
+  margin-bottom: 15px; /* Reduced space below the image */
+  border-radius: 10px;
+}
+
+.modal-content a {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px; /* Smaller button size */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Reduced margin */
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content a:hover {
+  background-color: #0056b3;
+}
+
+.modal-content button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px; /* Smaller button size */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+.close-btn {
+  margin-left: 3%;
+  background-color: #ccc;
+  color: white;
+  border: none;
+  padding: 8px 15px; /* Smaller button size */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #999;
+}
